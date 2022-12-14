@@ -1,7 +1,16 @@
-body{
-  color: #000;
-  width:100%;
-  overflow-x:hidden;
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    color: #000;
+    width:100%;
+    overflow-x:hidden;
+  }
+
 }
 
 #title {
